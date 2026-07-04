@@ -1,0 +1,13 @@
+# Editor / OS
+.DS_Store
+Thumbs.db
+*.log
+
+# Claude Code local
+.claude/settings.local.json
+
+# Dependencies (jika kelak ditambah)
+node_modules/
+
+# Utilitas terpisah, bukan bagian dari website
+ConvertToPDF/
