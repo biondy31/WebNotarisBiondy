@@ -1,0 +1,291 @@
+{
+  "tanggal": "2026-09-20",
+  "repoRevision": "13500a9efc35281d1fc1ad0aa6c09663e71848f4",
+  "catatan": "Topik diadaptasi dari modul dan form kosong. Kasus seluruhnya ilustratif tanpa data klien. Rujukan hukum diperiksa melalui sumber resmi, bukan dianggap benar karena ada di kode. Bukan persetujuan editorial Notaris.",
+  "sources": {
+    "upt": {
+      "title": "UU 40/2007 tentang Perseroan Terbatas — dibaca bersama perubahan dalam UU 6/2023",
+      "url": "https://www.pajak.go.id/id/peraturan/perseroan-terbatas-0"
+    },
+    "cipta": {
+      "title": "UU 6/2023 tentang penetapan Perppu Cipta Kerja — perubahan UUPT dalam Pasal 109 lampiran",
+      "url": "https://peraturan.go.id/id/uu-no-6-tahun-2023"
+    },
+    "modal": {
+      "title": "PP 8/2021 — modal dan perseroan perorangan",
+      "url": "https://jdih.kppu.go.id/common/dokumen/2021pp008.pdf"
+    },
+    "pt": {
+      "title": "Permenkum 49/2025 — pendirian, perubahan, pembubaran, dan laporan tahunan PT",
+      "url": "https://www.peraturan.go.id/files/permenkum-no-49-tahun-2025.pdf"
+    },
+    "cv": {
+      "title": "Permenkum 25/2025 — layanan persekutuan perdata, firma, dan CV",
+      "url": "https://www.peraturan.go.id/files/permenkum-no-25-tahun-2025.pdf"
+    },
+    "dagang": {
+      "title": "KUHD — khususnya Pasal 19–21 tentang persekutuan komanditer",
+      "url": "https://jdih.mahkamahagung.go.id/legal-product/kitab-undang-undang-hukum-dagang/download/dokumen"
+    },
+    "perdata": {
+      "title": "KUHPerdata — ketentuan persekutuan, termasuk Pasal 1646 dan 1651",
+      "url": "https://jdih.mahkamahagung.go.id/legal-product/kitab-undang-undang-hukum-perdata/download/dokumen"
+    },
+    "izin": {
+      "title": "PP 28/2025 tentang Perizinan Berusaha Berbasis Risiko",
+      "url": "https://peraturan.go.id/id/pp-no-28-tahun-2025"
+    },
+    "kbli": {
+      "title": "BPS, 27 April 2026 — implementasi KBLI 2025 dan penyesuaian perizinan",
+      "url": "https://www.bps.go.id/id/news/2026/04/27/898/pemerintah-memastikan-kbli-2025-tidak-memerlukan-perizinan-baru.html"
+    },
+    "alihcv": {
+      "title": "FAQ AHU — pendirian PT dari usaha yang sebelumnya dijalankan sebagai CV",
+      "url": "https://portal.ahu.go.id/page/faq"
+    }
+  },
+  "refs": [
+    {
+      "path": "docs/form-akta/FORM-pendirian-pt.md",
+      "sha256": "43d437ef1c3fda20267b676b61ff22c8347dcf434e9f3d42b20b13e8f7148df0"
+    },
+    {
+      "path": "docs/form-akta/FORM-pendirian-cv.md",
+      "sha256": "76dc67787fb56b7af30689af55db40a2b924ea1021c42102275b62c20ec13ca0"
+    },
+    {
+      "path": "utils/pendirianValidator.js",
+      "sha256": "86e0c72aca8280ac18a29ad682242613b34926eb2e04f6fe3891cf5d6247d75b"
+    },
+    {
+      "path": "utils/peroranganKePtBiasaValidator.js",
+      "sha256": "183cd3e051fb93ab9a8d764ca7fb69cf58dacb97397f1db4788f6cdaef184e9e"
+    },
+    {
+      "path": "utils/peroranganKePtBiasaNormalisasi.js",
+      "sha256": "ebf9b0c4230003cea1bf8d3d3391c365dca96eedd8b676c85d135c8959370b67"
+    },
+    {
+      "path": "utils/sirkulerValidator.js",
+      "sha256": "5c6c066e3dc95634ca0b43c3f111bb7686700b8a07f15cf7cfc76e3582d7bc47"
+    },
+    {
+      "path": "utils/penggabungan/kuorum.js",
+      "sha256": "a9b302fda4c944a44e4334581dfce7f0b69919f8e0aa88c0d0ffd7f1af2ffd09"
+    },
+    {
+      "path": "utils/penggabungan/konversiSaham.js",
+      "sha256": "c4b8989c794cf868fb319393a16628d73c6023f5e8464e1e1f8425ce08a2f14e"
+    },
+    {
+      "path": "utils/cv/pendirian.js",
+      "sha256": "04b020c83240f1f80392185236c074e5ef5a86e265d0de215f1a4cce4d50a06e"
+    },
+    {
+      "path": "utils/cv/cvlib.js",
+      "sha256": "de15af136ead70df63e79814f43a924f59b88b9685ac9f8b67c710e57b22a218"
+    },
+    {
+      "path": "utils/cv/suratPengunduran.js",
+      "sha256": "56381d34e200f18419770b388fe0a23ac754ef294671aa7a9a2740957bfe8257"
+    },
+    {
+      "path": "utils/cv/cvValidator.js",
+      "sha256": "294c8d0b3e013454acc129170e24724ab7ae09df99ac49c2effeadf991197aea"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-08-05-gerbang-waris-pesero-cv-design.md",
+      "sha256": "1598efa390cc909d26dc10f89c357dc9d7c724d35c640b547f40dd8105a202aa"
+    },
+    {
+      "path": "utils/cv/generatorCv.js",
+      "sha256": "385b3abaf36236f40352d921b29366e7ecdfc4b723dbf86df9e33f3a8e025005"
+    },
+    {
+      "path": "utils/pengambilalihan/pengendali.js",
+      "sha256": "682d4d37d9df6235a23e88f45da40974254cf2e770923a4b030e249641f87cc4"
+    },
+    {
+      "path": "utils/sahamLedger.js",
+      "sha256": "33c4d9809fa3e796ab28f576abf333149fb999428594aab53b119edef5b31cd4"
+    },
+    {
+      "path": "docs/form-akta/FORM-pkps-sirkuler.md",
+      "sha256": "aee3037ab244451b0afa5e25a71540e4db269774ac44a27aaea6dd2229d00832"
+    },
+    {
+      "path": "docs/peta-generator.md",
+      "sha256": "c7c210f34c9d3016e9aeaa6705dd4b1d8d789056319a4c9ae4ee1b4399d2a86a"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-08-15-dividen-setor-modal-design.md",
+      "sha256": "b5b1877714c5c795d845828a17e1c4711d396cad7cf7348eddd5dbd637ab813d"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-08-02-administrasi-saham-design.md",
+      "sha256": "539c2a204a44fe3ec2121bcbe2e14a31b137d282b296e3c68fb839ea43851395"
+    },
+    {
+      "path": "utils/cv/kbliKurasi.js",
+      "sha256": "b6247df333581e7d1e3a556958743b6d47463530f76aca3181c3f4455a32536c"
+    },
+    {
+      "path": "utils/sirkulerKlausul.js",
+      "sha256": "90f9feada150757653d41e4d9cca28fddf5e3097cf6f0779285be9e96e1aad04"
+    },
+    {
+      "path": "utils/pembubaran/validasi.js",
+      "sha256": "0b952166e575290be75f058ea8e26a7d1594c731c7ad4f37e2c2d0ba029a87d3"
+    },
+    {
+      "path": "utils/pembubaran/timeline/tahapan.js",
+      "sha256": "1951ebc40d3c929cafd953303ae86dc06a367fab467faff76b640a0f94655bfb"
+    }
+  ],
+  "mapping": [
+    {
+      "slug": "memilih-pt-atau-cv",
+      "repo": [
+        "docs/form-akta/FORM-pendirian-pt.md",
+        "docs/form-akta/FORM-pendirian-cv.md"
+      ]
+    },
+    {
+      "slug": "pendirian-pt-pembagian-peran",
+      "repo": [
+        "docs/form-akta/FORM-pendirian-pt.md",
+        "utils/pendirianValidator.js"
+      ]
+    },
+    {
+      "slug": "modal-dasar-ditempatkan-disetor",
+      "repo": [
+        "utils/pendirianValidator.js",
+        "utils/peroranganKePtBiasaValidator.js"
+      ]
+    },
+    {
+      "slug": "pt-perorangan-masuk-investor",
+      "repo": [
+        "utils/peroranganKePtBiasaValidator.js",
+        "utils/peroranganKePtBiasaNormalisasi.js"
+      ]
+    },
+    {
+      "slug": "saham-sama-rata-kebuntuan",
+      "repo": [
+        "utils/sirkulerValidator.js",
+        "utils/penggabungan/kuorum.js"
+      ]
+    },
+    {
+      "slug": "penggabungan-dua-pt",
+      "repo": [
+        "utils/penggabungan/konversiSaham.js",
+        "utils/penggabungan/kuorum.js"
+      ]
+    },
+    {
+      "slug": "sekutu-aktif-pasif-cv",
+      "repo": [
+        "docs/form-akta/FORM-pendirian-cv.md",
+        "utils/cv/pendirian.js"
+      ]
+    },
+    {
+      "slug": "sekutu-cv-masuk-keluar",
+      "repo": [
+        "utils/cv/cvlib.js",
+        "utils/cv/suratPengunduran.js",
+        "utils/cv/cvValidator.js"
+      ]
+    },
+    {
+      "slug": "sekutu-cv-meninggal",
+      "repo": [
+        "utils/cv/cvValidator.js",
+        "docs/superpowers/specs/2026-08-05-gerbang-waris-pesero-cv-design.md"
+      ]
+    },
+    {
+      "slug": "usaha-cv-menjadi-pt",
+      "repo": [
+        "utils/cv/generatorCv.js",
+        "docs/form-akta/FORM-pendirian-pt.md",
+        "docs/form-akta/FORM-pendirian-cv.md"
+      ]
+    },
+    {
+      "slug": "investor-baru-dilusi-saham",
+      "repo": [
+        "utils/sirkulerValidator.js",
+        "utils/pengambilalihan/pengendali.js"
+      ]
+    },
+    {
+      "slug": "jual-beli-saham-pengambilalihan",
+      "repo": [
+        "utils/pengambilalihan/pengendali.js",
+        "utils/sahamLedger.js"
+      ]
+    },
+    {
+      "slug": "masa-jabatan-direksi-komisaris",
+      "repo": [
+        "utils/sirkulerValidator.js",
+        "docs/form-akta/FORM-pkps-sirkuler.md"
+      ]
+    },
+    {
+      "slug": "rups-dan-keputusan-sirkuler",
+      "repo": [
+        "utils/sirkulerValidator.js",
+        "utils/penggabungan/kuorum.js",
+        "docs/peta-generator.md"
+      ]
+    },
+    {
+      "slug": "laporan-tahunan-pt",
+      "repo": [
+        "utils/sirkulerValidator.js",
+        "docs/peta-generator.md"
+      ]
+    },
+    {
+      "slug": "dividen-saldo-laba-cadangan",
+      "repo": [
+        "utils/sirkulerValidator.js",
+        "docs/superpowers/specs/2026-08-15-dividen-setor-modal-design.md"
+      ]
+    },
+    {
+      "slug": "pemegang-saham-meninggal",
+      "repo": [
+        "utils/sahamLedger.js",
+        "docs/superpowers/specs/2026-08-02-administrasi-saham-design.md"
+      ]
+    },
+    {
+      "slug": "menambah-kegiatan-usaha-kbli",
+      "repo": [
+        "utils/cv/kbliKurasi.js",
+        "utils/sirkulerValidator.js",
+        "docs/form-akta/FORM-pendirian-pt.md"
+      ]
+    },
+    {
+      "slug": "pindah-alamat-kedudukan-pt",
+      "repo": [
+        "utils/sirkulerValidator.js",
+        "utils/sirkulerKlausul.js"
+      ]
+    },
+    {
+      "slug": "pembubaran-pt-dan-aset-tersisa",
+      "repo": [
+        "utils/pembubaran/validasi.js",
+        "utils/pembubaran/timeline/tahapan.js"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://notaris-biondy-utama-cimahi.biondy31.chatgpt.site/sitemap.xml
